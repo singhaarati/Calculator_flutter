@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'view/calculator_view.dart';
 import 'view/dashboard.dart';
+import 'view/data_table_view.dart';
 import 'view/gallery.dart';
 
 class App extends StatelessWidget {
@@ -15,7 +16,8 @@ class App extends StatelessWidget {
       routes: {
         '/': (context) => const DashboardView(),
         '/calculator': (context) => const CalculatorView(),
-        '/gallery': (context) => const GalleryView()
+        '/gallery': (context) => const GalleryView(),
+        '/datatable': (context) => const DataTableView()
       },
     );
   }
